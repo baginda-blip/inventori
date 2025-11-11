@@ -23,7 +23,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM data_teknisi ORDER BY id DESC");
     <table width='80%' border=1>
 
     <tr class="header">
-         <th>No</th><th>Nama teknisi</th> <th>alamat</th> <th>no_hp</th><th>Aksi</th>
+         <th>No</th><th>nama_teknisi</th> <th>alamat</th> <th>no_hp</th> <th>aksi</th>
     </tr>
     <?php  
     $i=1;

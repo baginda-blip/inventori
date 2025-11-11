@@ -9,5 +9,5 @@ $id = $_GET['id'];
 $result = mysqli_query($mysqli, "DELETE FROM data_teknisi WHERE id=$id");
 
 // After delete redirect to Home, so that latest user list will be displayed.
-header("Location:index.php");
+header("Location:index_data_teknisi.php");
 ?>
